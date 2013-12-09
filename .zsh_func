@@ -1,0 +1,26 @@
+dir_path_array=(~ ~/git/aluuubumbum ~/git/aluuubumbum/aluuubumbum/aluuubumbum ~/git/aluuubumbum/JSON2SQLite/JSON2SQLite/styles/ ~/git/miruphoto_server ~/Library/Application\ Support/iPhone\ Simulator/7.0-64)
+
+list()
+{
+    count=1
+    for dir_path in $dir_path_array
+    do
+        echo $count" "$dir_path
+        count=`expr $count + 1`
+    done
+}
+
+move()
+{
+    if [ $# -ne 1 ]; then
+        list
+    elif [ $1 -gt ${#dir_path_array[@]} ]; then
+        list
+    elif [ $1 -le 0 ]; then
+        list
+    else
+        echo "move to "${dir_path_array[$1]}
+        cd ${dir_path_array[$1]}
+    fi
+}
+

@@ -1,0 +1,11 @@
+#!/bin/sh
+
+flist=$1
+if [ ! -f $flist ]; then
+  echo error in $0: no such file, $flist
+fi
+printf "GITLOG = "
+while read fname
+do
+  echo `echo ${fname} | perl /Users/Atsushi/bin/replace.pl`
+done < $flist
