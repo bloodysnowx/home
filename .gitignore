@@ -45,7 +45,7 @@
 .wps.pid
 .zcompdump
 Adobe Acrobat XI Pro/
-EffectiveJava.pdf
+*.pdf
 /Google*/
 /lib/
 *.ipa
@@ -53,3 +53,29 @@ checker-269/
 checker-274/
 .zsh_history
 *~
+.Xauthority
+.activator/
+.atom/
+.berkshelf/
+.cache/
+.gradle/
+.ivy2/
+.m2/
+.mono/
+.repopickle_.gitconfig
+.rnd
+.sbt/
+.scala_history
+.sonar/
+.ssh/*_rsa
+.ssh/*.pem
+.vagrant.d/
+.wireshark-etc/
+.wireshark/
+VirtualBox VMs/
+.config/
+.fontconfig/
+doc/
+mydroid/
+scalaWorkspace/
+src/
