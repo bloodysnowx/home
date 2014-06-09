@@ -11,10 +11,11 @@
 ~Msle0~/\<xml\>
 
 # Command Line History (newest to oldest):
-:wq
+:quit
 :q
-:wq!
 :q!
+:wq
+:wq!
 
 # Search String History (newest to oldest):
 ? \<xml\>
@@ -38,21 +39,24 @@
 	 
 
 # File marks:
-'0  13  0  ~/.zshrc
-'1  10  1  ~/.gitconfig
-'2  23  0  ~/.gitconfig
-'3  22  1  ~/.bashrc
-'4  3  0  ~/.bash_profile
-'5  5  34  ~/.bashrc
-'6  1  64  ~/bin/JsTestDriver-1.3.5.sh
-'7  1  0  ~/bin/jenkins.sh
-'8  8  29  ~/.bashrc
-'9  7  34  ~/.bashrc
+'0  10  1  ~/git/sakuraVoIPLib/.git/config
+'1  100  16  ~/.zshrc
+'2  13  0  ~/.zshrc
+'3  10  1  ~/.gitconfig
+'4  23  0  ~/.gitconfig
+'5  22  1  ~/.bashrc
+'6  3  0  ~/.bash_profile
+'7  5  34  ~/.bashrc
+'8  1  64  ~/bin/JsTestDriver-1.3.5.sh
+'9  1  0  ~/bin/jenkins.sh
 
 # Jumplist (newest first):
+-'  10  1  ~/git/sakuraVoIPLib/.git/config
+-'  1  0  ~/git/sakuraVoIPLib/.git/config
+-'  100  16  ~/.zshrc
+-'  1  0  ~/.zshrc
 -'  13  0  ~/.zshrc
 -'  16  0  ~/.zshrc
--'  1  0  ~/.zshrc
 -'  10  1  ~/.gitconfig
 -'  1  0  ~/.gitconfig
 -'  23  0  ~/.gitconfig
@@ -146,16 +150,17 @@
 -'  2  2  ~/git/iwasa/.git/COMMIT_EDITMSG
 -'  1  0  ~/git/iwasa/.git/COMMIT_EDITMSG
 -'  3  7  ~/git/aluuubumbum/testing
--'  1  0  ~/git/aluuubumbum/testing
--'  2  7  ~/git/aluuubumbum/testing
--'  1  3  ~/git/sample/.git/COMMIT_EDITMSG
 
 # History of marks within files (newest to oldest):
 
+> ~/git/sakuraVoIPLib/.git/config
+	"	10	1
+
 > ~/.zshrc
-	"	13	0
-	.	16	0
+	"	100	16
+	.	34	0
 	+	16	0
+	+	34	0
 
 > ~/.gitconfig
 	"	10	1

@@ -9,3 +9,8 @@
 
 ;;(global-whitespace-mode 1)
 (set-default-coding-systems 'utf-8-unix)
+
+;; *.~ とかのバックアップファイルを作らない
+(setq make-backup-files nil)
+;; .#* とかのバックアップファイルを作らない
+(setq auto-save-default nil)

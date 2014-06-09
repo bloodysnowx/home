@@ -1,5 +1,9 @@
+fpath=( ${fpath})
 bindkey -e # emacs key bind
 export LANG=ja_JP.UTF-8
+export ANDROID_HOME=/Applications/android-sdk-macosx
+export ANDROID_NDK_ROOT=/usr/ndk
+PATH=/usr/activator:/usr/scala/bin:/usr/play:/usr/ndk:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH:~/src/mosquitto-1.2.3/client
 autoload -U compinit # auto complete
 compinit
 PROMPT="%/%% "
@@ -63,6 +67,8 @@ alias -s jpg=preview
 alias -s jpeg=preview
 alias -s png=preview
 alias -s bmp=preview
+
+alias -s exe=mono
 
 if [ -f ~/.zsh_func ] ; then
 . ~/.zsh_func
